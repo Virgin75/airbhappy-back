@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "l_entreprises",
+  "info": {
+    "name": "L'entreprise"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titre_page": {
+      "type": "string"
+    }
+  }
+}

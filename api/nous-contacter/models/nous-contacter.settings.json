@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "nous_contacters",
+  "info": {
+    "name": "nous_contacter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titre_page": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
